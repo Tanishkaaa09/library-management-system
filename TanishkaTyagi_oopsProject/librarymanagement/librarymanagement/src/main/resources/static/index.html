@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>👤 Customer Management</h1>
+
+<div class="form-box">
+    <h2>Add Customer</h2>
+
+    <!-- IDs backend/JS ke hisaab se SAME -->
+    <input type="text" id="title" placeholder="Customer Name">
+    <input type="text" id="author" placeholder="Email / Phone">
+    <input type="number" id="copies" placeholder="Age / Count">
+
+    <button onclick="addBook()">Add Customer</button>
+</div>
+
+<h2>All Customers</h2>
+
+<table>
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email / Phone</th>
+        <th>Age / Count</th>
+        <th>Action</th>
+    </tr>
+    </thead>
+    <tbody id="bookTable"></tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>

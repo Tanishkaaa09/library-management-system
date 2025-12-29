@@ -1,1 +1,1 @@
-# library-management-system
+# course-management-system

@@ -1,1 +1,1 @@
-# library-management-system
+# customer-management-system
